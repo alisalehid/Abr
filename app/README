@@ -1,0 +1,32 @@
+# 🌤️ WeatherForecastApp
+
+A modern Android weather app built with **Kotlin**, **Jetpack Compose**, and **Clean Architecture**.
+This project showcases best practices in **modular design**, **MVVM**, **dependency injection (Hilt)**, **unit testing (TDD)**, and **real-time localization & theme switching**.
+
+---
+
+## 📸 Screenshots
+
+| Light Theme | Dark Theme |
+|-------------|------------|
+| ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
+
+---
+
+## 🚀 Features
+
+- 🌐 Real-time weather forecast using the **[OpenWeatherMap API](https://openweathermap.org/)** (free tier)
+- 🧱 Clean Architecture with modularization
+- 🎨 Jetpack Compose UI with Material 3 design
+- 🌙 Light/Dark theme switching in real-time
+- 🌍 Language change (localization) without restarting the app
+- 🔄 Reactive UI updates using `StateFlow` and `LiveData`
+- 🔐 Dependency injection using Hilt
+- ✅ Unit-tested domain and data layers
+- 🧪 TDD-based development
+- ⚙️ CI/CD ready (GitHub Actions configured)
+
+---
+
+## 🗂️ Project Structure
+
